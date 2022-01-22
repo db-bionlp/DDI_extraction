@@ -1,0 +1,27 @@
+python3 main_run.py \
+  --train_filename ../re_dataset/DDI/train.tsv  \
+  --dev_filename ../re_dataset/DDI/dev.tsv  \
+  --test_filename ../re_dataset/DDI/test.tsv  \
+  --fingerprint_dir ../re_dataset/fingerprint/fingerprint_file \
+  --data_dir ../re_dataset/DDI  \
+  --label_file ../re_dataset/DDI/label.csv  \
+  --model_dir ../saved_model/bert_center_biobert  \
+  --model bert_center \
+  --model_type biobert  \
+  --per_gpu_train_batch_size=1  \
+  --per_gpu_eval_batch_size=32  \
+  --max_steps=-1  \
+  --num_train_epochs=10 \
+  --gradient_accumulation_steps=1  \
+  --learning_rate=5e-5  \
+  --logging_steps=850  \
+  --save_steps=850 \
+  --adam_epsilon=1e-8  \
+  --warmup_steps=0  \
+  --dropout_rate=0.1  \
+  --weight_decay=0.0  \
+  --seed=42  \
+  --max_grad_norm=1.0  \
+  --do_train \
+  --do_eval \
+  --do_test \
