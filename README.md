@@ -23,7 +23,7 @@ The main requirements are:
  ![image](image/process_nerout.png)
  
 ## relation extraction model
- ![image](image/re_model.png)
+ ![image](re_model.png)
  
 ## Usage
 
