@@ -13,7 +13,15 @@ The main requirements are:
   - transformers==3.2.0
   - tqdm
 
+## ner_model
+ ![image](image/Entity identification models.png)
+ 
+## ner output
+ ![image](image/ner_output.png)
 
+## ner output process
+ ![image](image/process_nerout.png)
+ 
 ## Usage
 
 **1. Build Data**
