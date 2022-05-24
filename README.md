@@ -14,7 +14,7 @@ The main requirements are:
   - tqdm
 
 ## ner_model
- ![image](image/Entity identification models.png)
+ ![image](image/ner_model.png)
  
 ## ner output
  ![image](image/ner_output.png)
