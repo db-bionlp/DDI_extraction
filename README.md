@@ -22,6 +22,9 @@ The main requirements are:
 ## ner output process
  ![image](image/process_nerout.png)
  
+## relation extraction model
+ ![image](image/re_model.png)
+ 
 ## Usage
 
 **1. Build Data**
