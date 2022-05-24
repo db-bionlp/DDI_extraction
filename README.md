@@ -14,7 +14,7 @@ The main requirements are:
   - tqdm
 
 ## ner_model
- ![image](image/ner_model.png)
+ ![image](image/ner_model.jpg)
  
 ## ner output
  ![image](image/ner_output.png)
